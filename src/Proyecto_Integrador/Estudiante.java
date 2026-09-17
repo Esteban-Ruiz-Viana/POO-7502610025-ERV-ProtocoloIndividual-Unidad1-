@@ -6,6 +6,14 @@ public class Estudiante {
     int edad;
     String curso;
 
+    public Estudiante() {
+
+        nombre = "Sin nombre";
+        edad = 0;
+        curso = "Sin curso";
+
+    }
+
     public Estudiante(String nombre, int edad, String curso) {
 
         this.nombre = nombre;

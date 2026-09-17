@@ -55,6 +55,16 @@ public class Proyecto_Integrador {
         System.out.println(cuenta);
         System.out.println(estudiante);
 
+        System.out.println("\n------------------Constructores vacios----------------------------");
+
+        Libro libroVacio = new Libro();
+        CuentaBancaria cuentaVacia = new CuentaBancaria();
+        Estudiante estudianteVacio = new Estudiante();
+
+        System.out.println(libroVacio);
+        System.out.println(cuentaVacia);
+        System.out.println(estudianteVacio);
+
         sc.close();
     }
 }
